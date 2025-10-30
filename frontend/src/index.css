@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Black";
+    src: url(Inter-Black.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Light";
+    src: url(Inter-Light.ttf);
+}
+
+/* body{
+    background: #092456;
+    background: radial-gradient(circle,rgba(19, 67, 156, 1) 0%, rgba(5, 22, 53, 1) 37%, rgba(0, 0, 0, 1) 58%);
+    background-attachment: fixed;
+    font-family: "Inter-Regular";
+} */
+
+body {
+    background-color: #092456;
+}

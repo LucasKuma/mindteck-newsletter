@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.unsubscribe-container {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+    font-family: "Inter-Regular";
+
+    width: 120vh;
+    height: 80vh;
+
+    background: #092456;
+    background: radial-gradient(circle,rgba(19, 67, 156, 1) 0%, rgba(5, 22, 53, 1) 21%, rgba(0, 0, 0, 1) 47%);
+    background-attachment: fixed;
+    
+    box-shadow: rgba(0, 0, 0, 0.27) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.unsubscribe-container h1 {
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+
+.unsubscribe-container p {
+  max-width: 500px;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  color: #d0d0d0;
+}
+
+.unsubscribe-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.unsubscribe-container input {
+  width: 280px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.unsubscribe-container button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e63946;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.unsubscribe-container button:hover {
+  background-color: #d62839;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #a0e7a0;
+}
